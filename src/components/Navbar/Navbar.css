@@ -1,0 +1,46 @@
+.navbar {
+    background-color: black;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    padding: 0.5rem 0;
+}
+
+ .navbar-icon {
+    width: 100px;
+    height: 100px;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+
+.navbar-logo {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin-left: 1rem;
+}
+
+
+.navbar-menu {
+    display: flex;
+    color: white;
+    list-style: none;
+    margin-left: auto;
+    
+}
+
+.navbar-item {
+    margin: 0 1rem;
+    display: flex;
+} 
+
+.button {
+    border: none;
+    border-radius: 4px;
+    background-color: blue;
+    color: white;
+    margin: 0 1rem
+
+}
